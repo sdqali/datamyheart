@@ -51,7 +51,7 @@ function sanitizeBatsmen(data) {
     });
 };
 
-d3.json("/debuts/data/debuts.json", function(dataset) {
+d3.json("../debuts/data/debuts.json", function(dataset) {
     dataset = sanitizeBatsmen(dataset);
 
     var xScale = d3.scale.linear()
