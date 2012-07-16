@@ -1,0 +1,28 @@
+
+.axis path, .axis line {
+	fill: none;
+	stroke: #000;
+	stroke-width: 1.0;
+}
+
+.small_multiples_label {
+	text-align: center;
+	vertical-align: bottom;
+}
+
+.sparklines p {
+	font-family: monospace;
+	font-size: 20px;
+}
+
+#MusambiMax {
+	color: red;
+}
+
+#WatermelonMax {
+	color: red;
+}
+
+#DatesMax {
+	color: red;
+}

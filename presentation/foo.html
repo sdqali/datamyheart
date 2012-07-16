@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->  <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <title>Data my heart, Data my eyes, visualize.</title>
+
+        <meta name="description" content="A jQuery library for modern HTML presentations">
+        <meta name="author" content="Caleb Troughton">
+        <meta name="viewport" content="width=1024, user-scalable=no">
+
+        <!-- Core and extension CSS files -->
+        <link rel="stylesheet" href="../core/deck.core.css">
+        <link rel="stylesheet" href="../extensions/goto/deck.goto.css">
+        <link rel="stylesheet" href="../extensions/menu/deck.menu.css">
+        <link rel="stylesheet" href="../extensions/navigation/deck.navigation.css">
+        <link rel="stylesheet" href="../extensions/status/deck.status.css">
+        <link rel="stylesheet" href="../extensions/hash/deck.hash.css">
+        <link rel="stylesheet" href="../extensions/scale/deck.scale.css">
+
+        <!-- Style theme. More available in /themes/style/ or create your own. -->
+        <!-- <link rel="stylesheet" href="../themes/style/launchpad.css"> -->
+
+        <!-- Transition theme. More available in /themes/transition/ or create your own. -->
+        <link rel="stylesheet" href="../themes/transition/horizontal-slide.css">
+        <link rel="stylesheet" href="../slides.css">
+        <link rel="stylesheet" href="../box/box.css">
+        <link rel="stylesheet" href="../chord/chord.css">
+        <link rel="stylesheet" href="../stackchart/stackchart.css">
+        <link rel="stylesheet" href="../areachart/areachart.css">
+        <link rel="stylesheet" href="../punch_card/punch_card.css">
+        <link rel="stylesheet" href="../debuts/debuts.css">
+        <link rel="stylesheet" href="../treemap/treemap.css">
+
+        <script src="../modernizr.custom.js"></script>
+        <script src="../d3.v2.min.js"></script>
+</head>
+
+<body class="deck-container">
+
+<!-- Begin slides -->
+<section class="slide" id="title-slide">
+        <h1>Data, my Heart!</h1>
+</section>
+<!-- Begin slides -->
+<section class="slide" id="title-slide">
+        <h1>Data, my Eyes!</h1>
+</section>
+<!-- Begin slides -->
+<section class="slide" id="title-slide">
+        <h1>Visualize</h1>
+</section>
+
+<section class="slide">
+        <h1>Q: How does one visualize data?</h1>
+</section>
+
+<section class="slide">
+        <h1>A: Depends on the data. Depends on the questions </h1>
+</section>
+
+<section class="slide">
+        <h1> Juice Junction </h2>
+</section>
+
+<section class="slide">
+        <h1>What are the most popular juices?</h1>
+</section>
+
+<section class="slide">
+  <h2>Pie Chart</h2>
+  <section class="slide">
+        <div id="pie">
+        <div id="pie_chart" style="float:left">
+        </div>
+        <div id="pie_legend" style="display:inline">
+        </div>
+        </div>
+</section>
+</section>
+
+<section class="slide">
+  <h2>Pie Chart</h2>
+  <section class="slide">
+    <h3>Sometimes a Pie Chart skews perception
+  </section>
+</section>
+
+<section class="slide">
+        <h1>We can improve that</h1>
+</section>
+
+<section class="slide">
+        <h2>Donut Chart</h2>
+        <section class="slide">
+        <div id="donut">
+        <div id="donut_chart" style="float:left">
+        </div>
+        <div id="donut_legend" style="display:inline">
+        </div>
+        </div>
+</section>
+</section>
+
+
+<section class="slide">
+        <h1>Has juice drinking become more popular with time?</h1>
+</section>
+
+<section class="slide">
+        <h2> Aggregated line chart</h2>
+                <section class="slide">
+
+        <div id="aggr_line_chart">
+        </div>
+</section>
+</section>
+
+<section class="slide">
+        <h1>Has certain juices become more popular with time?</h1>
+</section>
+
+<section class="slide">
+                <h2> Line Chart per Juice </h2>
+                <section class="slide">
+        <div id="line_chart">
+        </div>
+                </section>
+</section>
+
+<section class="slide">
+  <h2> Line Charts</h2>
+  <section class="slide">
+    <h3>Not good when there is too much data</h3>
+  </section>
+</section>
+
+<section class="slide">
+    <h1>This could be better</h1>
+</section>
+
+<section class="slide">
+  <h2> Small Multiples</h2>
+  <section class="slide">
+      <div id="small_multiples" style="width:1000px;height:600px">
+    </div>
+  </section>
+</section>
+
+<section class="slide">
+  <h2>Small Multiples</h2>
+  <section class="slide">
+      <h3>Easier comparison</<h3>
+  </section>
+</section>
+
+<section class="slide">
+            <h2>Sparklines</h2>
+            <div class="sparklines">
+        <p>There are times when data needs to appear in the middle of a paragraph.</p>
+                <p>Like so: </p>
+                <p>On an average, it would appear that <span id="Musambi"></span> Musambi : <span id="MusambiMax"></span> and <span id="Watermelon"></span> Watermelon : <span id="WatermelonMax"></span>  are both popular and consistent. While <span id="Dates"></span> Dates : <span id="DatesMax"></span> isn't very popular, it appears to be consistently consumed, so one can say that it has its loyal customer base.</p>
+</section>
+
+<section class="slide">
+    <h1>Consistency of juice consumption</h1>
+</section>
+
+<section class="slide">
+     <h2>Boxplot</h2>
+     <section class="slide">
+       <div id="boxplot"></div>
+     </section>
+</section>
+
+<section class="slide">
+     <h2>Boxplot</h2>
+     <section class="slide">
+       <h3>Mean</h3>
+       <h3>Median</h3>
+       <h3>Quartiles</h3>
+       <h3>Outliers</h3>
+     </section>
+</section>
+
+<section class="slide">
+        <h1> Who drinks what the most? :) </h1>
+</section>
+
+<section class="slide">
+        <h2> Treemaps </h2>
+        <div id="treemap">
+        </div>
+</section>
+
+<section class="slide">
+  <h1>What other juces do people drink?
+  </h1>
+</section>
+
+<section class="slide">
+     <h2>Chord Diagram</h2>
+     <section class="slide">
+       <div id="chorddigram"></div>
+     </section>
+</section>
+
+<section class="slide">
+  <h1>Are some juices popular on some days?
+  </h1>
+</section>
+
+<section class="slide">
+     <h2>Stack Chart</h2>
+     <section class="slide">
+       <div id="stackchart"></div>
+       <div id="stackchartlegend"></div>
+     </section>
+</section>
+
+<section class="slide">
+  <h1>We can improve that
+  </h1>
+</section>
+
+<section class="slide">
+     <h2>Area Chart</h2>
+     <section class="slide">
+       <div id="areachart"></div>
+       <div id="areachartlegend"></div>
+     </section>
+</section>
+
+<section class="slide">
+  <h1>Conclusions</h1>
+</section>
+
+<section class="slide">
+  <h1>India and Pakistan</h1>
+</section>
+
+<section class="slide">
+  <h1>Who make better debuts?</h1>
+</section>
+
+<section class="slide">
+     <h2>Batsmen</h2>
+     <section class="slide">
+       <div id="batsmen"></div>
+     </section>
+</section>
+
+<section class="slide">
+     <h2>Bowlers</h2>
+     <section class="slide">
+       <div id="bowlers"></div>
+     </section>
+</section>
+
+<section class="slide">
+     <h2>Scatterplot</h2>
+     <section class="slide">
+       <h3>3 dimensions in 2</h3>
+       <h3>Good for orthogonal data</h3>
+       <h3>Identify clusters</h3>
+     </section>
+</section>
+
+<section class="slide">
+  <h1>d3.js</h1>
+</section>
+
+<section class="slide">
+  <h2>Mike Bostock</h2>
+  <h3>Proto Vis</h3>
+  <h3>d3.js</h3>
+  <h3>Cube</h3>
+  <h3>Cubism</h3>
+</section>
+
+<section class="slide">
+  <h1>Data Driven Documents</h1>
+</section>
+
+<section class="slide">
+  <h1>Bind data to the DOM</h1>
+</section>
+
+<section class="slide">
+  <h1>Selectors</h1>
+</section>
+
+<section class="slide">
+  <div class="code" style="font-family:Monospace; font-size: 40px;">
+    <p1>d3.selectAll("p")<br/ >
+        .style("color", "white");</p>
+  </div>
+</section>
+
+<section class="slide">
+  <div class="code" style="font-family:Monospace; font-size: 40px;">
+    <p>d3.select("body")<br/ >
+        .style("background-color", "black");</p>
+  </div>
+</section>
+
+<section class="slide">
+  <h1>Dynamic Properties</h1>
+</section>
+
+<section class="slide">
+  <div class="code" style="font-family:Monospace; font-size: 40px;">
+    <p>d3.selectAll("p")<br/>
+    .data([4, 8, 15, 16, 23, 42])<br/>
+    .style("font-size", function(d) { return d + "px"; });</p>
+  </div>
+</section>
+
+<section class="slide">
+  <h1>Transitions</h1>
+</section>
+
+<section class="slide">
+  <div class="code" style="font-family:Monospace; font-size: 40px;">
+    <p>
+      d3.select("body").transition() <br />
+    .style("background-color", "black");
+    </p>
+  </div>
+</section>
+
+<section class="slide">
+  <h1>Questions?</h1>
+</section>
+
+<!-- deck.navigation snippet -->
+<a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+<a href="#" class="deck-next-link" title="Next">&#8594;</a>
+
+<!-- deck.status snippet -->
+<p class="deck-status">
+        <span class="deck-status-current"></span>
+
+        <span class="deck-status-total"></span>
+</p>
+
+<!-- deck.goto snippet -->
+<form action="." method="get" class="goto-form">
+        <label for="goto-slide">Go to slide:</label>
+        <input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
+        <datalist id="goto-datalist"></datalist>
+        <input type="submit" value="Go">
+</form>
+
+<!-- deck.hash snippet -->
+<a href="." title="Permalink to this slide" class="deck-permalink">#</a>
+
+
+<!-- Grab CDN jQuery, with a protocol relative URL; fall back to local if offline -->
+<script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+<script>window.jQuery || document.write('<script src="../jquery-1.7.min.js"><\/script>')</script>
+
+<!-- Deck Core and extensions -->
+<script src="../core/deck.core.js"></script>
+<script src="../extensions/hash/deck.hash.js"></script>
+<script src="../extensions/menu/deck.menu.js"></script>
+<script src="../extensions/goto/deck.goto.js"></script>
+<script src="../extensions/status/deck.status.js"></script>
+<script src="../extensions/navigation/deck.navigation.js"></script>
+<script src="../extensions/scale/deck.scale.js"></script>
+<script src="../pie_chart/pieChart.js"></script>
+<script type="text/javascript" src="../line_chart/lineChart.js"> </script>
+<script type="text/javascript" src="../line_chart/aggrLineChart.js"> </script>
+<script type="text/javascript" src="../small_multiples/smallMultiples.js"> </script>
+<script type="text/javascript" src="../heatmap/heatmap.js"> </script>
+<script type="text/javascript" src="../box/box.js"> </script>
+<script type="text/javascript" src="../chord/chord.js"> </script>
+<script type="text/javascript" src="../stackchart/stackchart.js"> </script>
+<script type="text/javascript" src="../areachart/areachart.js"> </script>
+<script type="text/javascript" src="../punch_card/punch_card.js"> </script>
+<script type="text/javascript" src="../debuts/utils.js"> </script>
+<script type="text/javascript" src="../debuts/batsmen.js"> </script>
+<script type="text/javascript" src="../debuts/bowlers.js"> </script>
+<script type="text/javascript" src="../sparklines/sparklines.js"> </script>
+<script type="text/javascript" src="../treemap/treemap.js"> </script>
+
+<script>
+drawPieChartIn("#pie",0);
+drawPieChartIn("#donut",200);
+</script>
+<!-- Initialize the deck -->
+<script>
+$(function() {
+        $.deck('.slide');
+});
+</script>
+
+</body>
+</html>

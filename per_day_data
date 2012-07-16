@@ -1,0 +1,261 @@
+date,juice,total
+2012-04-02,Musambi,81
+2012-04-02,Grapes,4
+2012-04-02,Lime,23
+2012-04-02,Papaya,8
+2012-04-02,Pineapple,12
+2012-04-02,Apple,0
+2012-04-02,Banana,0
+2012-04-02,Dates,7
+2012-04-02,Musk Melon,11
+2012-04-02,Mixed Fruit,1
+2012-04-02,Orange,1
+2012-04-02,Watermelon,62
+2012-04-02,Chikku,13
+2012-04-03,Musambi,49
+2012-04-03,Grapes,4
+2012-04-03,Lime,24
+2012-04-03,Papaya,8
+2012-04-03,Pineapple,9
+2012-04-03,Apple,0
+2012-04-03,Banana,0
+2012-04-03,Dates,5
+2012-04-03,Musk Melon,23
+2012-04-03,Mixed Fruit,2
+2012-04-03,Orange,31
+2012-04-03,Watermelon,66
+2012-04-03,Chikku,20
+2012-04-04,Musambi,50
+2012-04-04,Grapes,3
+2012-04-04,Lime,26
+2012-04-04,Papaya,5
+2012-04-04,Pineapple,4
+2012-04-04,Apple,0
+2012-04-04,Banana,17
+2012-04-04,Dates,6
+2012-04-04,Musk Melon,9
+2012-04-04,Mixed Fruit,2
+2012-04-04,Orange,39
+2012-04-04,Watermelon,57
+2012-04-04,Chikku,7
+2012-04-05,Musambi,44
+2012-04-05,Grapes,5
+2012-04-05,Lime,17
+2012-04-05,Papaya,3
+2012-04-05,Pineapple,13
+2012-04-05,Apple,0
+2012-04-05,Banana,13
+2012-04-05,Dates,2
+2012-04-05,Musk Melon,10
+2012-04-05,Mixed Fruit,2
+2012-04-05,Orange,26
+2012-04-05,Watermelon,55
+2012-04-05,Chikku,8
+2012-04-06,Musambi,46
+2012-04-06,Grapes,1
+2012-04-06,Lime,16
+2012-04-06,Papaya,1
+2012-04-06,Pineapple,6
+2012-04-06,Apple,0
+2012-04-06,Banana,0
+2012-04-06,Dates,2
+2012-04-06,Musk Melon,5
+2012-04-06,Mixed Fruit,1
+2012-04-06,Orange,23
+2012-04-06,Watermelon,37
+2012-04-06,Chikku,8
+2012-03-09,Musambi,24
+2012-03-09,Grapes,4
+2012-03-09,Lime,14
+2012-03-09,Papaya,0
+2012-03-09,Pineapple,11
+2012-03-09,Apple,12
+2012-03-09,Banana,2
+2012-03-09,Dates,2
+2012-03-09,Musk Melon,6
+2012-03-09,Mixed Fruit,4
+2012-03-09,Orange,23
+2012-03-09,Watermelon,27
+2012-03-09,Chikku,14
+2012-03-12,Musambi,43
+2012-03-12,Grapes,7
+2012-03-12,Lime,16
+2012-03-12,Papaya,3
+2012-03-12,Pineapple,9
+2012-03-12,Apple,12
+2012-03-12,Banana,8
+2012-03-12,Dates,1
+2012-03-12,Musk Melon,12
+2012-03-12,Mixed Fruit,7
+2012-03-12,Orange,37
+2012-03-12,Watermelon,38
+2012-03-12,Chikku,16
+2012-03-13,Musambi,50
+2012-03-13,Grapes,2
+2012-03-13,Lime,20
+2012-03-13,Papaya,1
+2012-03-13,Pineapple,11
+2012-03-13,Apple,8
+2012-03-13,Banana,6
+2012-03-13,Dates,1
+2012-03-13,Musk Melon,13
+2012-03-13,Mixed Fruit,4
+2012-03-13,Orange,39
+2012-03-13,Watermelon,45
+2012-03-13,Chikku,14
+2012-03-14,Musambi,31
+2012-03-14,Grapes,3
+2012-03-14,Lime,23
+2012-03-14,Papaya,4
+2012-03-14,Pineapple,8
+2012-03-14,Apple,7
+2012-03-14,Banana,12
+2012-03-14,Dates,5
+2012-03-14,Musk Melon,25
+2012-03-14,Mixed Fruit,5
+2012-03-14,Orange,33
+2012-03-14,Watermelon,45
+2012-03-14,Chikku,10
+2012-03-15,Musambi,38
+2012-03-15,Grapes,8
+2012-03-15,Lime,21
+2012-03-15,Papaya,13
+2012-03-15,Pineapple,1
+2012-03-15,Apple,12
+2012-03-15,Banana,3
+2012-03-15,Dates,7
+2012-03-15,Musk Melon,16
+2012-03-15,Mixed Fruit,4
+2012-03-15,Orange,56
+2012-03-15,Watermelon,40
+2012-03-15,Chikku,1
+2012-03-16,Musambi,82
+2012-03-16,Grapes,2
+2012-03-16,Lime,14
+2012-03-16,Papaya,3
+2012-03-16,Pineapple,6
+2012-03-16,Apple,8
+2012-03-16,Banana,12
+2012-03-16,Dates,2
+2012-03-16,Musk Melon,11
+2012-03-16,Mixed Fruit,3
+2012-03-16,Orange,2
+2012-03-16,Watermelon,66
+2012-03-16,Chikku,16
+2012-03-19,Musambi,38
+2012-03-19,Grapes,3
+2012-03-19,Lime,20
+2012-03-19,Papaya,8
+2012-03-19,Pineapple,16
+2012-03-19,Apple,13
+2012-03-19,Banana,9
+2012-03-19,Dates,0
+2012-03-19,Musk Melon,12
+2012-03-19,Mixed Fruit,1
+2012-03-19,Orange,59
+2012-03-19,Watermelon,41
+2012-03-19,Chikku,13
+2012-03-20,Musambi,43
+2012-03-20,Grapes,2
+2012-03-20,Lime,22
+2012-03-20,Papaya,5
+2012-03-20,Pineapple,9
+2012-03-20,Apple,5
+2012-03-20,Banana,4
+2012-03-20,Dates,0
+2012-03-20,Musk Melon,13
+2012-03-20,Mixed Fruit,0
+2012-03-20,Orange,34
+2012-03-20,Watermelon,60
+2012-03-20,Chikku,7
+2012-03-21,Musambi,42
+2012-03-21,Grapes,6
+2012-03-21,Lime,11
+2012-03-21,Papaya,6
+2012-03-21,Pineapple,14
+2012-03-21,Apple,1
+2012-03-21,Banana,11
+2012-03-21,Dates,2
+2012-03-21,Musk Melon,8
+2012-03-21,Mixed Fruit,5
+2012-03-21,Orange,55
+2012-03-21,Watermelon,46
+2012-03-21,Chikku,21
+2012-03-22,Musambi,42
+2012-03-22,Grapes,4
+2012-03-22,Lime,26
+2012-03-22,Papaya,7
+2012-03-22,Pineapple,11
+2012-03-22,Apple,14
+2012-03-22,Banana,3
+2012-03-22,Dates,3
+2012-03-22,Musk Melon,14
+2012-03-22,Mixed Fruit,1
+2012-03-22,Orange,57
+2012-03-22,Watermelon,41
+2012-03-22,Chikku,13
+2012-03-23,Musambi,33
+2012-03-23,Grapes,7
+2012-03-23,Lime,11
+2012-03-23,Papaya,5
+2012-03-23,Pineapple,6
+2012-03-23,Apple,0
+2012-03-23,Banana,4
+2012-03-23,Dates,1
+2012-03-23,Musk Melon,7
+2012-03-23,Mixed Fruit,1
+2012-03-23,Orange,10
+2012-03-23,Watermelon,38
+2012-03-23,Chikku,10
+2012-03-26,Musambi,41
+2012-03-26,Grapes,2
+2012-03-26,Lime,17
+2012-03-26,Papaya,14
+2012-03-26,Pineapple,12
+2012-03-26,Apple,0
+2012-03-26,Banana,10
+2012-03-26,Dates,3
+2012-03-26,Musk Melon,9
+2012-03-26,Mixed Fruit,1
+2012-03-26,Orange,40
+2012-03-26,Watermelon,60
+2012-03-26,Chikku,11
+2012-03-28,Musambi,35
+2012-03-28,Grapes,4
+2012-03-28,Lime,27
+2012-03-28,Papaya,1
+2012-03-28,Pineapple,5
+2012-03-28,Apple,0
+2012-03-28,Banana,16
+2012-03-28,Dates,5
+2012-03-28,Musk Melon,15
+2012-03-28,Mixed Fruit,2
+2012-03-28,Orange,52
+2012-03-28,Watermelon,66
+2012-03-28,Chikku,11
+2012-03-29,Musambi,73
+2012-03-29,Grapes,8
+2012-03-29,Lime,22
+2012-03-29,Papaya,9
+2012-03-29,Pineapple,19
+2012-03-29,Apple,1
+2012-03-29,Banana,24
+2012-03-29,Dates,7
+2012-03-29,Musk Melon,10
+2012-03-29,Mixed Fruit,3
+2012-03-29,Orange,5
+2012-03-29,Watermelon,73
+2012-03-29,Chikku,10
+2012-03-30,Musambi,77
+2012-03-30,Grapes,3
+2012-03-30,Lime,17
+2012-03-30,Papaya,2
+2012-03-30,Pineapple,10
+2012-03-30,Apple,0
+2012-03-30,Banana,7
+2012-03-30,Dates,0
+2012-03-30,Musk Melon,11
+2012-03-30,Mixed Fruit,2
+2012-03-30,Orange,2
+2012-03-30,Watermelon,42
+2012-03-30,Chikku,7

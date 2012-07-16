@@ -1,0 +1,14 @@
+#chorddigram {
+  font: 10px sans-serif;
+  margin: 20px;
+}
+
+#chorddigram .chords {
+  margin: 20px;
+}
+
+#chorddigram .chord path {
+  fill-opacity: .67;
+  stroke: #000;
+  stroke-width: .5px;
+}

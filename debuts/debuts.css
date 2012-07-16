@@ -1,0 +1,73 @@
+.batsmenaxis path,
+.batsmenaxis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.batsmenaxis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+#batsmen .rule line {
+    stroke: #000;
+    stroke-opacity: 0.2;
+    shape-rendering: crispEdges;
+}
+
+#batsmen .rule first-child line {
+    stroke: #000;
+    stroke-opacity: 0.5;
+    shape-rendering: crispEdges;
+}
+
+#batsmen {
+    float: left;
+}
+
+#batsmen .legend {
+    float: left;
+    text-align: left;
+}
+
+#batsmen .legend li {
+    list-style: none;
+}
+
+.bowlersaxis path,
+.bowlersaxis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.bowlersaxis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+#bowlers .rule line {
+    stroke: #000;
+    stroke-opacity: 0.2;
+    shape-rendering: crispEdges;
+}
+
+#bowlers .rule first-child line {
+    stroke: #000;
+    stroke-opacity: 0.5;
+    shape-rendering: crispEdges;
+}
+
+#bowlers {
+    float: left;
+}
+
+#bowlers .legend {
+    float: left;
+    text-align: left;
+}
+
+#bowlers .legend li {
+    list-style: none;
+}

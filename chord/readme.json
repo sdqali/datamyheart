@@ -1,0 +1,5 @@
+[
+    {"name": "foo", "size":450, "imports":["bar"]},
+    {"name": "bar", "size":300, "imports":["foo", "zoo"]},
+    {"name": "zoo", "size":100, "imports":["foo"]}
+]

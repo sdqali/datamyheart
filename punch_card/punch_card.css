@@ -1,0 +1,16 @@
+#punchcard {
+  font: 10px sans-serif;
+  float: left;
+}
+
+#punchcard .axis path,
+#punchcard .axis line {
+    fill: none;
+    stroke: none;
+    shape-rendering: crispEdges;
+}
+
+#punchcard .axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
