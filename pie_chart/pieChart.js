@@ -1,6 +1,6 @@
 function drawPieChartIn(container,innerRadius) {
 
-d3.csv("../real_data",function(d){
+d3.csv("../real_data.csv",function(d){
         var parse = d3.time.format("%Y-%m-%d").parse;
 
         data=d;
@@ -34,22 +34,22 @@ function drawPieChart(juices,container,innerRadius) {
                                          .append("svg")
                                          .data([juices])
                                          .attr("height",dim.h)
-																				 .attr("width",dim.w)
-																				 .append("svg:g")
-																				 .attr("transform","translate("+dim.r+","+dim.r+")");
+                                                                                                                                                                 .attr("width",dim.w)
+                                                                                                                                                                 .append("svg:g")
+                                                                                                                                                                 .attr("transform","translate("+dim.r+","+dim.r+")");
 
         var arc = d3.svg.arc().outerRadius(dim.r).innerRadius(innerRadius);
 
         var pie = d3.layout.pie()
-										.value(function(d){return d.total});
+                                                                                .value(function(d){return d.total});
 
-  		 var arcs = pieChartContainer.selectAll("g.slice")
-																	 .data(pie)
-																	 .enter()
-																	 .append("svg:g")
-																	 .attr("class","slice");
+                 var arcs = pieChartContainer.selectAll("g.slice")
+                                                                                                                                         .data(pie)
+                                                                                                                                         .enter()
+                                                                                                                                         .append("svg:g")
+                                                                                                                                         .attr("class","slice");
 
-  		 arcs.append("svg:path")
+                 arcs.append("svg:path")
                         .attr("d",arc)
                         .attr("shape-rendering","geometricPrecision")
                         .attr("stroke","white")

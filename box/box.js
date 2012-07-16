@@ -10,7 +10,7 @@ var chart = boxChart()
     .width(boxPlotWidth)
     .height(boxPlotHeight);
 
-d3.csv("../real_data", function(d) {
+d3.csv("../real_data.csv", function(d) {
     var data = [];
     var parse = d3.time.format("%Y-%m-%d").parse;
 
@@ -64,7 +64,7 @@ d3.csv("../real_data", function(d) {
     window.transition = function() {
         vis.datum(randomize).call(chart);
     };
-		d3.select("#boxplot").append("div").attr("class","juice_label").selectAll("div").data(juices).enter().append("p").text(function(d){return d.key})
+                d3.select("#boxplot").append("div").attr("class","juice_label").selectAll("div").data(juices).enter().append("p").text(function(d){return d.key})
 });
 
 function randomize(d) {

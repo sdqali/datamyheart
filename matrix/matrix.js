@@ -13,7 +13,7 @@ var svg = d3.select("#chart").append("svg")
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.csv("../real_data", function(csv) {
+d3.csv("../real_data.csv", function(csv) {
     var data=csv;
 
     var parse = d3.time.format("%Y-%m-%d").parse;

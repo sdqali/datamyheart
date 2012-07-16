@@ -2,7 +2,7 @@ require 'date'
 require 'csv'
 
 data = []
-CSV.foreach("../real_data", "r") do |row|
+CSV.foreach("../real_data.csv", "r") do |row|
   data << row
 end
 

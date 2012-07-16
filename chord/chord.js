@@ -2,7 +2,7 @@ var r1 = 600 / 2;
 var r0 = r1 - 20;
 
 
-d3.csv("../real_data", function(csv){
+d3.csv("../real_data.csv", function(csv){
     var data=csv;
 
     var parse = d3.time.format("%Y-%m-%d").parse;

@@ -1,6 +1,6 @@
 require 'rubygems'
 
-records=File.readlines("../real_data")[1..-1].map { |x| x.strip.split(",") }
+records=File.readlines("../real_data.csv")[1..-1].map { |x| x.strip.split(",") }
 juices = {}
 records.each do |record|
    date,emp_id,juice=record
@@ -16,6 +16,6 @@ juices.each do |juice,employees|
     puts employees.map { |emp, total|
          "{\"name\": \"#{emp}\", \"size\": #{total}}"
     }.join(",\n")
-    puts "]}," 
+    puts "]},"
 end
 puts "]}"
